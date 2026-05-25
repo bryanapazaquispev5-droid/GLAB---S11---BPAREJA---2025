@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3188acc8-b78e-4544-923f-e3532556e00c" name="Changes" comment="" />
+    <list default="true" id="3188acc8-b78e-4544-923f-e3532556e00c" name="Changes" comment="feat: setup firebase configuration and project dependencies">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/impl/AccountServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/impl/AccountServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/settings/SettingsScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/settings/SettingsScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/settings/SettingsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/settings/SettingsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/sign_up/SignUpViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/sign_up/SignUpViewModel.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +40,12 @@
     &quot;assignee&quot;: &quot;bryanapazaquispev5-droid&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BparejaTec/Lab11_Start.git&quot;,
-    &quot;accountId&quot;: &quot;6b954cff-e21e-4e1d-8939-fd809f236e7f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bryanapazaquispev5-droid/GLAB---S11---BPAREJA---2025.git",
+    "accountId": "6b954cff-e21e-4e1d-8939-fd809f236e7f"
   }
-}</component>
+}]]></component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2" javaHome="/usr/lib/jvm/default" gradleVersion="8.0.2" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -53,14 +60,15 @@
     "Android App.app.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/ivan/AndroidStudioProjects/Lab11_Start/start",
+    "last_opened_file_path": "/home/ivan/AndroidStudioProjects/Lab11_Start",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -144,6 +152,15 @@
       <option name="presentableId" value="Default" />
       <updated>1728907346978</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: setup firebase configuration and project dependencies">
+      <option name="closed" value="true" />
+      <created>1779723184587</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779723184587</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,5 +178,23 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="feat: setup firebase configuration and project dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: setup firebase configuration and project dependencies" />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.example.makeitso">
+          <value>
+            <CheckInfo lastCheckTimestamp="1779723186638" />
+          </value>
+        </entry>
+        <entry key="com.example.makeitso.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1779723186831" />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
