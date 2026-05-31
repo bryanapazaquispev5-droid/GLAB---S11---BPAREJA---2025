@@ -9,12 +9,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3188acc8-b78e-4544-923f-e3532556e00c" name="Changes" comment="feat: update firebase configuration and fix build synchronization issues">
+    <list default="true" id="3188acc8-b78e-4544-923f-e3532556e00c" name="Changes" comment="feat: implement real-time task synchronization with Cloud Firestore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/impl/StorageServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/model/service/impl/StorageServiceImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/tasks/TasksScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/tasks/TasksScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/tasks/TasksViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/makeitso/screens/tasks/TasksViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +35,12 @@
     &quot;assignee&quot;: &quot;bryanapazaquispev5-droid&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bryanapazaquispev5-droid/GLAB---S11---BPAREJA---2025.git",
-    "accountId": "6b954cff-e21e-4e1d-8939-fd809f236e7f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bryanapazaquispev5-droid/GLAB---S11---BPAREJA---2025.git&quot;,
+    &quot;accountId&quot;: &quot;6b954cff-e21e-4e1d-8939-fd809f236e7f&quot;
   }
-}]]></component>
+}</component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.0.2-bin/25jlreiuz6u3xu2phlpa2vv4m/gradle-8.0.2" javaHome="/usr/lib/jvm/default" gradleVersion="8.0.2" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -67,7 +63,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/ivan/AndroidStudioProjects/Lab11_Start",
+    "last_opened_file_path": "/home/ivan/AndroidStudioProjects/Lab09",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -167,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779725358684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: implement real-time task synchronization with Cloud Firestore">
+      <option name="closed" value="true" />
+      <created>1779726169303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779726169303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +191,8 @@
     </ignored-roots>
     <MESSAGE value="feat: setup firebase configuration and project dependencies" />
     <MESSAGE value="feat: update firebase configuration and fix build synchronization issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update firebase configuration and fix build synchronization issues" />
+    <MESSAGE value="feat: implement real-time task synchronization with Cloud Firestore" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement real-time task synchronization with Cloud Firestore" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
